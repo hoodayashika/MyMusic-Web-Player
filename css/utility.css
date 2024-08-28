@@ -1,0 +1,61 @@
+/* this can be used as a class anywhere */
+
+.border{
+    border:2px solid red;
+    margin: 3px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-cente{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-black {
+    background-color: #000033;
+    color: #e6e6ff;
+}
+
+.invert { /* to turn the pictures from black to white (can be seen on black bg) */
+    filter: invert(1);
+}
+
+
+.bg-grey {
+    background-color: #19194d;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+.m-1 { /* margin */
+    margin: 5px;
+}
+
+.p-1 { /* padding */
+    padding: 10px;
+}
+
+/* for webkit browers (eg. Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #19194d; /* dark color for the thumb */
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #131339; /* dark color for the track */
+}
+
+/* for firefox */
+/* scrollbar-color: #333 #222; */ /* dark color for thumb and track in firefox */
